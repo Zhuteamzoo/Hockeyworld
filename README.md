@@ -1,0 +1,1 @@
+Hockey world is a dynamic website dedicated to all things hockey. It features the latest news, scores, and statistics for various hockey leagues, player profiles, and interactive features such as fantasy hockey leagues and game predictions. The site is designed to be a comprehensive hub for hockey enthusiasts, providing real-time updates and engaging content related to the sport.
