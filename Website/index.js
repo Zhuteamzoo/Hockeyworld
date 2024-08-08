@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' }); // Scroll to contact section
     });
 
-    // Add event listener for click event on Scroll to Events button
+    // Add event listener for click eventon Scroll to Events button
     scrollToEventsButton.addEventListener('click', function() {
         document.querySelector('#events').scrollIntoView({ behavior: 'smooth' });
     });
