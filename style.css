@@ -21,6 +21,21 @@ header h1 {
     border-radius: 10px;
 }
 
+#scroll-to-events {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#scroll-to-events:hover {
+    background-color: #555;
+}
+
 nav ul {
     background: #333;
     color: white;
@@ -45,6 +60,27 @@ section {
     margin: 20px;
     background: white;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#news-list, #event-list, #team-roster, #player-profiles, #match-highlights, #fan-forum, #event-calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#team-roster div, #player-profiles div, #match-highlights div, #fan-forum div, #event-calendar div {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: calc(33% - 40px);
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -82,3 +118,4 @@ form button {
 form button:hover {
     background: #555;
 }
+
