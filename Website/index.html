@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Hockey World</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#teams">Teams</a></li>
+            <li><a href="#players">Players</a></li>
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#forum">Forum</a></li>
+            <li><a href="#calendar">Calendar</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Your source for all things hockey.You will find anything a hockey fan would need this website tells you information about hockey in the about section it shows the events, games, news, teams ,rosters, Player profiles, match highlights and theres even a fan forum section if you want to contact me (the owner) you can go to the contact section just enter your name your email a message and it will be sent to me. Hope you enjoy the website!</p>
+    </section>
+    <section id="about">
+        <h2>About</h2>
+        <p>Learn more about the history of hockey and our mission to promote the sport.Click the About button and it will send you to wikipedia where you will learn the needed information about hockey. This will be updated in the future</p>
+    </section>
+    <section id="events">
+        <h2>Events</h2>
+        <p id="event-list">Loading events...</p>
+    </section>
+    <section id="news">
+        <h2>News</h2>
+        <p id="news-list">Loading news...</p>
+    </section>
+    <section id="teams">
+        <h2>Teams</h2>
+        <div id="team-roster">Loading team rosters...</div>
+    </section>
+    <section id="players">
+        <h2>Player Profiles</h2>
+        <div id="player-profiles">Loading player profiles...</div>
+    </section>
+    <section id="highlights">
+        <h2>Match Highlights</h2>
+        <div id="match-highlights">Loading match highlights...</div>
+    </section>
+    <section id="forum">
+        <h2>Fan Forum</h2>
+        <div id="fan-forum">Loading fan forum...</div>
+    </section>
+    <section id="calendar">
+        <h2>Event Calendar</h2>
+        <div id="event-calendar">Loading calendar...</div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/xvgprzda" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+        <p>&copy; 2024 Hockey World. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

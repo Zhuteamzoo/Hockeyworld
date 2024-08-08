@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: url('Unknown.jpeg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 10px;
+}
+
+#scroll-to-events {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#scroll-to-events:hover {
+    background-color: #555;
+}
+
+nav ul {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#news-list, #event-list, #team-roster, #player-profiles, #match-highlights, #fan-forum, #event-calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#team-roster div, #player-profiles div, #match-highlights div, #fan-forum div, #event-calendar div {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: calc(33% - 40px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
